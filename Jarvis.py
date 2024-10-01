@@ -11,7 +11,7 @@ from gtts import gTTS
 import subprocess
 
 # Insert your OpenWeatherMap API key here
-OPENWEATHER_API_KEY = '843aaa3e455bfb9d146eefaacd12233e'
+OPENWEATHER_API_KEY = 'YOUR_API_KEY'
 
 def speak(audio):
     tts = gTTS(text=audio, lang='en', slow=False)
